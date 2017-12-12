@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.springframework</groupId>
-    <artifactId>training-spring-boot-rest-basic</artifactId>
+    <artifactId>learning-spring-boot-rest-basic</artifactId>
     <version>0.0.1</version>
 
     <parent>
