@@ -10,12 +10,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/batches")
+@RequestMapping("/v1/batches")
 public class RestController {
 
 
-    @RequestMapping(method=RequestMethod.GET)
+    @RequestMapping(method=RequestMethod.POST)
     public @ResponseBody List<Batch> getBatch() {
+    	System.out.println("get batches");
     	List<Batch> list = new ArrayList<Batch>(2);
     	list.add(new Batch(15488, Arrays.asList("CRM", "TLR")));
     	list.add(new Batch(15489, Arrays.asList("FUN", "EIP")));

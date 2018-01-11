@@ -17,6 +17,6 @@ public class Batch {
 	}
 
 	public List<String> getSubscribers() {
-		return subscribers;
+		return subscribers; 
 	}
 }
